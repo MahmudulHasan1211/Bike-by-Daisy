@@ -26,7 +26,8 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                Bike: '#E76F51',
+                'Bike': '#E76F51',
+                'Bike-bg': 'rgba(231, 111, 81, 0.1)',
               }
             }
           }
@@ -83,10 +84,10 @@
 
         <!-- slider section  -->
          <!-- slide 1 -->
-        <div class="carousel w-full">
+        <div class="carousel w-full lg:h-[550px] bg-Bike-bg">
             <div id="slide1" class="carousel-item relative w-full">
-              <div class="flex">
-                <div>
+              <div class="flex flex-col lg:flex-row lg:p-24 p-12 lg:space-x-9">
+                <div  class="space-y-7 flex-1">
                     <h2 class="font-bold text-6xl">
                         Ride-on R15 V4 <br> with Smile
                     </h2>
@@ -95,7 +96,7 @@
                         <button class="btn bg-Bike text-white">Purchase</button>
                 </div>
 
-                <div>
+                <div class="flex-1">   
                     <img
                 src="./images/slider/bike1.png"
                 class="w-full" />
