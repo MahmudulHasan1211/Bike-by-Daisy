@@ -13,26 +13,28 @@
     <!-- font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <style>
-        .font-poppins{
+        .font-poppins {
             font-family: "Poppins", sans-serif;
         }
     </style>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                'Bike': '#E76F51',
-                'Bike-bg': 'rgba(231, 111, 81, 0.1)',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'Bike': '#E76F51',
+                        'Bike-bg': 'rgba(231, 111, 81, 0.1)',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 </head>
 
 <body class="font-poopins">
@@ -42,97 +44,83 @@
         <nav>
             <div class="navbar bg-base-100">
                 <div class="flex-1">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>News</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
                     </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Home</a></li>
-                      <li><a>Shop</a></li>
-                      <li><a>News</a></li>
-                      <li><a>Contact</a></li>
-                    </ul>
-                  </div>
-                  <a class="font-bold text-2xl">Bike Dekho</a>
+                    <a class="font-bold text-2xl">Bike Dekho</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                      <li><a>Shop</a></li>
-                      <li><a>News</a></li>
-                      <li><a>Contact</a></li>
-                  </ul>
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>News</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
                 </div>
                 <div class="">
-                  <a class="btn bg-Bike text-white">Login</a>
+                    <a class="btn bg-Bike text-white">Login</a>
                 </div>
-              </div>
+            </div>
         </nav>
 
         <!-- slider section  -->
-         <!-- slide 1 -->
+        <!-- slide 1 -->
         <div class="carousel w-full lg:h-[550px] bg-Bike-bg">
             <div id="slide1" class="carousel-item relative w-full">
-              <div class="flex flex-col lg:flex-row lg:p-24 p-12 lg:space-x-9">
-                <div  class="space-y-7 flex-1">
-                    <h2 class="font-bold text-6xl">
-                        Ride-on R15 V4 <br> with Smile
-                    </h2>
-                    <p>Amet minim mollit non deserunt ullamco <br>
-                        est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
+                <div class="flex flex-col lg:flex-row lg:p-24 p-12 lg:space-x-9">
+                    <div class="space-y-7 flex-1">
+                        <h2 class="font-bold text-6xl">
+                            Ride-on R15 V4 <br> with Smile
+                        </h2>
+                        <p>Amet minim mollit non deserunt ullamco <br>
+                            est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
                         <button class="btn bg-Bike text-white">Purchase</button>
-                </div>
+                    </div>
 
-                <div class="flex-1">   
-                    <img
-                src="./images/slider/bike1.png"
-                class="w-full" />
+                    <div class="flex-1">
+                        <img src="./images/slider/bike1.png" class="w-full" />
+                    </div>
                 </div>
-              </div>
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide3" class="btn btn-circle">❮</a>
-                <a href="#slide2" class="btn btn-circle">❯</a>
-              </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
             </div>
 
             <!-- slide 2 -->
             <div id="slide2" class="carousel-item relative w-full">
-                
-              <img
-                src="./images/slider/bike2.png"
-                class="w-full" />
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide1" class="btn btn-circle">❮</a>
-                <a href="#slide3" class="btn btn-circle">❯</a>
-              </div>
+
+                <img src="./images/slider/bike2.png" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
             </div>
 
-            
+
 
             <!-- slider 3 -->
             <div id="slide3" class="carousel-item relative w-full">
-              <img
-                src="./images/slider/bike3.png"
-                class="w-full" />
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide2" class="btn btn-circle">❮</a>
-                
-              </div>
+                <img src="./images/slider/bike3.png" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+
+                </div>
             </div>
-          </div>
+        </div>
 
     </header>
 
@@ -162,207 +150,206 @@
                 <div>
                     <div class="card glass ">
                         <figure>
-                          <img class="pt-5"
-                            src="./images/others/latest1.png"
-                            alt="car!" />
+                            <img class="pt-5" src="./images/others/latest1.png" alt="car!" />
                         </figure>
                         <div class="card-body">
-                          <h2 class="card-title text-2xl font-bold">Ducati XDIAVEL S-73</h2>
-                          <p>The XDiavel Nera will be produced in a limited-edition numbered series of 500 units. The serial number is engraved on a dedicated plate on the trellis frame.</p>
-                          <div class="card-actions">
-                            <button class="btn bg-Bike text-white ">Read More!</button>
-                          </div>
+                            <h2 class="card-title text-2xl font-bold">Ducati XDIAVEL S-73</h2>
+                            <p>The XDiavel Nera will be produced in a limited-edition numbered series of 500 units. The
+                                serial number is engraved on a dedicated plate on the trellis frame.</p>
+                            <div class="card-actions">
+                                <button class="btn bg-Bike text-white ">Read More!</button>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
-            
+
 
                 <div>
                     <div class="card glass ">
                         <figure>
-                          <img class="pt-5"
-                            src="./images/others/latest2.png"
-                            alt="car!" />
+                            <img class="pt-5" src="./images/others/latest2.png" alt="car!" />
                         </figure>
                         <div class="card-body">
-                          <h2 class="card-title text-2xl font-bold">Motorcycles & Scooters</h2>
-                          <p>The scooter is smaller in size. on the rear suspension, and it rides on small 10-inch wheels, making it more maneuverable at low speeds than a motorcycle.</p>
-                          <div class="card-actions">
-                            <button class="btn bg-Bike text-white ">Read More!</button>
-                          </div>
+                            <h2 class="card-title text-2xl font-bold">Motorcycles & Scooters</h2>
+                            <p>The scooter is smaller in size. on the rear suspension, and it rides on small 10-inch
+                                wheels, making it more maneuverable at low speeds than a motorcycle.</p>
+                            <div class="card-actions">
+                                <button class="btn bg-Bike text-white ">Read More!</button>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
 
 
-            <div>
                 <div>
-                    <div class="card glass ">
-                        <figure>
-                          <img class="pt-5"
-                            src="./images/others/latest3.png"
-                            alt="car!" />
-                        </figure>
-                        <div class="card-body">
-                          <h2 class="card-title text-2xl font-bold">2021 Honda CBR500R</h2>
-                          <p>The latest Honda CBR500R is refined, well balanced, beautifully built and peppy. First introduced in 2014, it's a stalwart of the A2 genre and is now in its third iteration</p>
-                          <div class="card-actions">
-                            <button class="btn bg-Bike text-white">Read More!</button>
-                          </div>
+                    <div>
+                        <div class="card glass ">
+                            <figure>
+                                <img class="pt-5" src="./images/others/latest3.png" alt="car!" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title text-2xl font-bold">2021 Honda CBR500R</h2>
+                                <p>The latest Honda CBR500R is refined, well balanced, beautifully built and peppy.
+                                    First introduced in 2014, it's a stalwart of the A2 genre and is now in its third
+                                    iteration</p>
+                                <div class="card-actions">
+                                    <button class="btn bg-Bike text-white">Read More!</button>
+                                </div>
+                            </div>
                         </div>
-                      </div>
+                    </div>
+
+
                 </div>
-
-
-            </div>
-            <div>
+                <div>
         </section>
 
         <section>
             <div>
                 <div>
-                    <h2 class="text-3xl font-bold my-9 text-center">Happy <span class="text-red-500">Clients says</span> </h2>
+                    <h2 class="text-3xl font-bold my-9 text-center">Happy <span class="text-red-500">Clients says</span>
+                    </h2>
                     <div class="lg:grid grid-cols-3 md:grid grid-cols-2 sm:grid grid-cols-1 sm:mx-auto ml-0 gap-12">
                         <div>
                             <div class="card glass ">
                                 <figure>
-                                  <img class="pt-5 "
-                                    src="./images/others/user-1.png"
-                                    alt="car!" />
+                                    <img class="pt-5 " src="./images/others/user-1.png" alt="car!" />
                                 </figure>
                                 <div class="card-body">
-                                  <!-- <h2 class="card-title text-2xl font-bold">Ducati XDIAVEL S-73</h2> -->
-                                  <p class="text-center">Slate helps you see how 
-                                    many more days you need 
-                                    to work to reach your financial 
-                                    goal for the month and year.</p>
-                                  <div class="card-actions">
-                                    <div class="rating mx-auto">
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <input
-                                          type="radio"
-                                          name="rating-2"
-                                          class="mask mask-star-2 bg-orange-400"
-                                          checked="checked" />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                      </div> 
-                                    <!-- <button class="btn bg-Bike text-white ">Read More!</button> -->
-                                  </div>
+                                    <!-- <h2 class="card-title text-2xl font-bold">Ducati XDIAVEL S-73</h2> -->
+                                    <p class="text-center">Slate helps you see how
+                                        many more days you need
+                                        to work to reach your financial
+                                        goal for the month and year.</p>
+                                    <div class="card-actions">
+                                        <div class="rating mx-auto">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                                checked="checked" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                        </div>
+                                        <!-- <button class="btn bg-Bike text-white ">Read More!</button> -->
+                                    </div>
                                 </div>
-                              </div>
+                            </div>
                         </div>
-                    
-        
+
+
                         <div>
                             <div class="card glass ">
                                 <figure>
-                                  <img class="pt-5"
-                                    src="./images/others/user-2.png"
-                                    alt="car!" />
+                                    <img class="pt-5" src="./images/others/user-2.png" alt="car!" />
                                 </figure>
                                 <div class="card-body">
-                                  <!-- <h2 class="card-title text-2xl font-bold">Motorcycles & Scooters</h2> -->
-                                  <p class="text-center">Slate helps you see how 
-                                    many more days you need 
-                                    to work to reach your financial 
-                                    goal for the month and year.</p>
-                                  <div class="card-actions">
-                                    <div class="rating mx-auto">
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <input
-                                          type="radio"
-                                          name="rating-2"
-                                          class="mask mask-star-2 bg-orange-400"
-                                          checked="checked" />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                      </div>
-                                    <!-- <button class="btn bg-Bike text-white ">Read More!</button> -->
-                                  </div>
+                                    <!-- <h2 class="card-title text-2xl font-bold">Motorcycles & Scooters</h2> -->
+                                    <p class="text-center">Slate helps you see how
+                                        many more days you need
+                                        to work to reach your financial
+                                        goal for the month and year.</p>
+                                    <div class="card-actions">
+                                        <div class="rating mx-auto">
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                                checked="checked" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                            <input type="radio" name="rating-2"
+                                                class="mask mask-star-2 bg-orange-400" />
+                                        </div>
+                                        <!-- <button class="btn bg-Bike text-white ">Read More!</button> -->
+                                    </div>
                                 </div>
-                              </div>
+                            </div>
                         </div>
-        
-        
-                    <div>
+
+
                         <div>
-                            <div class="card glass ">
-                                <figure>
-                                  <img class="pt-5 h-18"
-                                    src="./images/others/user-3.png"
-                                    alt="car!" />
-                                </figure>
-                                <div class="card-body">
-                                  <!-- <h2 class="card-title text-2xl font-bold">2021 Honda CBR500R</h2> -->
-                                  <p class="text-center">Slate helps you see how 
-                                    many more days you need 
-                                    to work to reach your financial 
-                                    goal for the month and year.</p>
-                                  <div class="card-actions">
-                                    <div class="rating mx-auto">
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <input
-                                          type="radio"
-                                          name="rating-2"
-                                          class="mask mask-star-2 bg-orange-400"
-                                          checked="checked" />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                      </div>
-                                    <!-- <button class="btn bg-Bike text-white">Read More!</button> -->
-                                  </div>
+                            <div>
+                                <div class="card glass ">
+                                    <figure>
+                                        <img class="pt-5 h-18" src="./images/others/user-3.png" alt="car!" />
+                                    </figure>
+                                    <div class="card-body">
+                                        <!-- <h2 class="card-title text-2xl font-bold">2021 Honda CBR500R</h2> -->
+                                        <p class="text-center">Slate helps you see how
+                                            many more days you need
+                                            to work to reach your financial
+                                            goal for the month and year.</p>
+                                        <div class="card-actions">
+                                            <div class="rating mx-auto">
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" checked="checked" />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                            </div>
+                                            <!-- <button class="btn bg-Bike text-white">Read More!</button> -->
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
+                            </div>
+
+
                         </div>
-        
-        
+                        <div>
+                        </div>
                     </div>
-                    <div>
-                </div>
-            </div>
         </section>
 
         <section class="my-29">
             <div class="my-20">
-                <h1 class="text-4xl font-bold text-center">Frequently Asked <span class="text-red-500">Questions</span></h1>
+                <h1 class="text-4xl font-bold text-center">Frequently Asked <span class="text-red-500">Questions</span>
+                </h1>
             </div>
 
             <div class="hero ">
                 <div class="hero-content flex-col lg:flex-row">
-                  <img
-                    src="./images/others/faq.png"
-                    class="max-w-sm rounded-lg shadow-2xl" />
-                  <div>
-                    <div class="collapse collapse-arrow bg-base-200">
-                        <input type="radio" name="my-accordion-2" checked="checked" />
-                        <div class="collapse-title text-xl font-medium">What are the most important things I should
-                            know about riding a bike?</div>
-                        <div class="collapse-content">
-                          <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                    <img src="./images/others/faq.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <div class="collapse collapse-arrow bg-base-200">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">What are the most important things I should
+                                know about riding a bike?</div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
                         </div>
-                      </div>
-                      <div class="collapse collapse-arrow bg-base-200">
-                        <input type="radio" name="my-accordion-2" />
-                        <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
-                            new one?</div>
-                        <div class="collapse-content">
-                          <p>google it</p>
+                        <div class="collapse collapse-arrow bg-base-200">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I
+                                need a
+                                new one?</div>
+                            <div class="collapse-content">
+                                <p>For example, sun damage and fading could indicate that you've had your helmet for a long time & therefore is time to switch it up. Things like scuffs and cracks are also a fair indication of extensive wear & damage, meaning you will need to replace your helmet</p>
+                            </div>
                         </div>
-                      </div>
-                      <div class="collapse collapse-arrow bg-base-200">
-                        <input type="radio" name="my-accordion-2" />
-                        <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
-                        <div class="collapse-content">
-                          <p>No!</p>
+                        <div class="collapse collapse-arrow bg-base-200">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to
+                                ride?</div>
+                            <div class="collapse-content">
+                                <p>No!</p>
+                            </div>
                         </div>
-                      </div>
-                  </div>
+                    </div>
                 </div>
-              </div>
+            </div>
 
             </div>
         </section>
